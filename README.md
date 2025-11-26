@@ -26,7 +26,7 @@ Este sitio está diseñado para ser rápido, moderno, responsive y fácil de nav
 ## Demo
 
 🔗 **Ver demo del portfolio:**  
-https://manuela-portfolio.netlify.app
+https://portfolio-manuela-mendoza-barba.netlify.app
 
 ## Cómo ejecutar el proyecto localmente
 
