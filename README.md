@@ -13,15 +13,17 @@ Este sitio está diseñado para ser rápido, moderno, responsive y fácil de nav
 
 ## Características principales
 
-- Diseño limpio y profesional, totalmente adaptado a dispositivos móviles, incluyendo menú hamburguesa.
+- Diseño limpio, profesional y responsive.
+- Navegación fluida con menú hamburguesa en móviles.
+- Animaciones suaves en secciones y tarjetas.
+- Componentes reutilizables y estructura escalable.
 - Secciones:
-  - **Hero** — Presentación con tecnologías principales.
+  - **Hero** — Presentación y habilidades principales.
   - **Sobre mí** — Línea del tiempo con mi formación, experiencia y trayectoria.
   - **Proyectos** — Tarjetas con animación suave, con descripción, tecnologías usadas y enlaces a código y demo.
   - **Contacto** — Tarjetas con email, redes sociales y ubicación.
 - Uso de **Framer Motion** para animaciones suaves.
 - Iconografía visual clara con **React Icons**.
-- Estructura modular en componentes para facilitar mantenimiento y escalabilidad.
 
 ## Demo
 
@@ -78,4 +80,4 @@ Apasionada por la creación de interfaces intuitivas, la programación frontend 
 
 ¡Gracias por visitar mi portfolio! 😊
 
-Cualquier comentario o colaboración es bienvenida.
+Cualquier sugerencia, comentario o colaboración será más que bienvenida.
