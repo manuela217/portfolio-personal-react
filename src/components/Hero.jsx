@@ -6,10 +6,10 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-8 py-20 bg-white"
+      className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-4 sm:px-8 py-20 bg-white"
     >
 
-      <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-3xl mt-14">
+      <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-3xl mt-14 overflow-x-hidden">
         <h1 className="font-poppins text-3xl sm:text-4xl md:text-6xl font-bold text-[#FF7F50]"> Hola, soy Manuela Mendoza </h1>
 
         <h2 className="font-poppins text-lg sm:text-xl md:text-2xl font-bold text-gray-700 mt-4 mb-6"> Desarrolladora Web Junior • Frontend & Backend </h2>
@@ -31,7 +31,7 @@ export default function Hero() {
         </a>
 
         <h2 className="font-poppins text-base sm:text-base md:text-2xl font-bold text-gray-600 mt-4 mb-2"> Habilidades: </h2>
-        <div className="flex justify-center sm:gap-4 md:justify-start gap-2 mt-8 text-4xl">
+        <div className="flex flex-wrap justify-center gap-3 sm:gap-4 md:justify-start mt-8 text-4xl">
           <SiHtml5 className="text-[#E34F26]" title="HTML5" />
           <SiCss3 className="text-[#1572B6]" title="CSS3" />
           <SiJavascript className="text-[#F7DF1E]" title="JavaScript" />

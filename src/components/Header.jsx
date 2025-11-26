@@ -6,8 +6,8 @@ export default function Header() {
   const closeMenu = () => setIsNavbarOpen(false);
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-white h-20 sm:h-24 z-50">
-      <div className="relative bg-white shadow-xl ring-1 ring-gray-900/5">
+    <header className="fixed top-0 left-0 w-full bg-white z-50 shadow-xl ring-1 ring-gray-900/5">
+      <div className="relative bg-white">
         <nav className="px-8 sm:px-18 py-4 sm:flex sm:items-center sm:justify-between">
           <section className="flex justify-between w-full sm:w-auto">
             <a href="/">

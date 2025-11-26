@@ -34,13 +34,13 @@ export default function Proyects () {
             </div> 
             <div className="flex gap-4 mt-6"> 
               <a 
-                href="#" 
+                href="https://github.com/manuela217/portfolio-personal-react" 
                 target="_blank" 
                 className="bg-[#FF7F50] text-white px-8 py-3 mt-10 mb-10 rounded-full font-medium transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105" > 
                 Ver código 
               </a> 
               <a 
-                href="#" 
+                href="https://portfolio-manuela-mendoza-barba.netlify.app/" 
                 className="bg-white border-2 border-[#FF7F50] text-[#FF7F50] px-8 py-3 mt-10 mb-10 rounded-full font-medium transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105" > 
                 Ver demo 
               </a> 
