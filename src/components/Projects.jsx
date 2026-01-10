@@ -106,7 +106,6 @@ export default function Proyects () {
               <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Docker </span> 
             </div> 
             <div className="flex gap-4 mt-6">
-              <p className="text-gray-600 mt-2"> (Este proyecto está actualmente en desarrollo) </p>
               {/* 
               <a 
                 href="#" 
