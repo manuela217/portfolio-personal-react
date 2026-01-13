@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import fotoPortfolioReact from '../assets/img/proyectoPortfolioReact.png';
 import fotoPortfolio from '../assets/img/proyectoPortfolio.png';  
 import fotoGestorTareas from '../assets/img/proyectoGestorTareas.png';  
+import fotoECommerce from '../assets/img/proyectoECommerce.jpg';  
 
 export default function Proyects () { 
   return ( 
@@ -32,6 +33,7 @@ export default function Proyects () {
               <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Framer Motion </span>
               <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Font Awesome </span>
               <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Adobe Illustrator (branding) </span> 
+              <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Git/GitHub </span> 
             </div> 
             <div className="flex gap-4 mt-6"> 
               <a 
@@ -67,6 +69,7 @@ export default function Proyects () {
               <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> CSS </span> 
               <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> JavaScript </span>
               <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Adobe Illustrator (branding) </span> 
+              <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Git/GitHub </span> 
             </div> 
             <div className="flex gap-4 mt-6"> 
               <a 
@@ -85,7 +88,7 @@ export default function Proyects () {
         </motion.div> 
 
         <motion.div
-          className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 md:col-span-2 mx-auto max-w-xl"
+          className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
           whileHover={{ scale: 1.02 }}
         > 
           <img src={fotoGestorTareas} alt="Proyecto personal full stack" className="w-full h-[300px] object-cover" /> 
@@ -103,22 +106,38 @@ export default function Proyects () {
               <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> TypeScript </span>
               <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Tailwind CSS </span> 
               <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> PostgreSQL </span> 
-              <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Docker </span> 
+              <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Docker </span>
+              <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Git/GitHub </span>  
             </div> 
             <div className="flex gap-4 mt-6">
-              {/* 
-              <a 
-                href="#" 
-                target="_blank" 
-                className="bg-[#FF7F50] text-white px-8 py-3 mt-10 mb-10 rounded-full font-medium transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105" > 
-                Ver código 
-              </a> 
-              <a 
-                href="#" 
-                className="bg-white border-2 border-[#FF7F50] text-[#FF7F50] px-8 py-3 mt-10 mb-10 rounded-full font-medium transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105" > 
-                Ver demo 
-              </a> 
-              */} 
+            </div> 
+          </div> 
+        </motion.div> 
+
+        <motion.div
+          className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+          whileHover={{ scale: 1.02 }}
+        > 
+          <img src={fotoECommerce} alt="Proyecto personal full stack" className="w-full h-[300px] object-cover" /> 
+          <div className="p-6 text-left"> 
+            <h3 className="font-poppins text-2xl font-semibold text-[#FF7F50]"> Plataforma E-commerce handmade (Angular + Spring Boot) </h3> 
+            <p className="text-gray-600 mt-2"> 
+              (Actualmente en desarrollo). Proyecto full stack orientado a la creación de una plantilla de tienda online para pequeños negocios handmade, 
+              diseñada para ser reutilizable y escalable. La aplicación cuenta con un frontend en Angular, centrado en una experiencia 
+              de compra visual, clara y responsive, y un backend en Spring Boot que expone una API REST para la gestión de productos, 
+              usuarios y pedidos. Este proyecto nace tanto como pieza de portfolio profesional como base para una tienda real, aplicando 
+              buenas prácticas de arquitectura, separación de responsabilidades y diseño orientado a producto.
+            </p> 
+            <div className="flex flex-wrap gap-2 mt-4"> 
+              <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Angular </span> 
+              <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> TypeScript </span>
+              <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Tailwind CSS </span> 
+              <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Java </span> 
+              <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Spring Boot </span> 
+              <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> PostgreSQL </span> 
+              <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Git/GitHub </span> 
+            </div> 
+            <div className="flex gap-4 mt-6">
             </div> 
           </div> 
         </motion.div> 
