@@ -15,12 +15,12 @@ export default function Hero() {
         <h2 className="font-poppins text-lg sm:text-xl md:text-2xl font-bold text-gray-700 mt-4 mb-6"> Desarrolladora Web Junior • Frontend & Backend </h2>
 
         <p className="text-base sm:text-lg md:text-xl max-w-3xl text-gray-600 mb-2 text-center md:text-justify">
-          Apasionada por la creación de aplicaciones web modernas, funcionales y con un diseño atractivo. 
-          Me gusta transformar ideas en experiencias digitales intuitivas, cuidando cada detalle a nivel visual y técnico.
+          Desarrollo aplicaciones web con un enfoque práctico, cuidando tanto la funcionalidad como la experiencia de usuario. 
+          Me gusta trabajar con interfaces claras, código bien organizado y soluciones pensadas para un uso real.
         </p>
         <p className="text-base sm:text-lg md:text-xl max-w-3xl text-gray-600 mb-2 text-center md:text-justify">
-          En este portfolio podrás conocer un poco más sobre mí, descubrir los proyectos en los que he trabajado y encontrar 
-          la forma de ponerte en contacto conmigo.
+          En este portfolio encontrarás una selección de los proyectos en los que he trabajado, mi trayectoria como desarrolladora web y las distintas 
+          formas de contacto.
         </p>
 
         <a
