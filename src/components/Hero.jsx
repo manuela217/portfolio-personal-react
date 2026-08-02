@@ -6,10 +6,10 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-center px-4 sm:px-8 pt-36 pb-12 md:py-16 bg-white"
+      className="min-h-screen flex flex-col-reverse md:flex-row items-center justify-start md:justify-center px-4 sm:px-8 pt-28 pb-12 md:py-16 bg-white"
     >
 
-      <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-3xl mt-14 overflow-x-hidden">
+      <div className="flex flex-col items-center md:items-start text-center md:text-left max-w-3xl mt-4 md:mt-14 overflow-x-hidden">
         <h1 className="font-poppins text-3xl sm:text-4xl md:text-6xl font-bold text-[#FF7F50]"> Hola, soy Manuela Mendoza </h1>
 
         <h2 className="font-poppins text-lg sm:text-xl md:text-2xl font-bold text-gray-700 mt-4 mb-6"> Desarrolladora Web Junior • Frontend & Backend </h2>
@@ -23,7 +23,7 @@ export default function Hero() {
           formas de contacto.
         </p>
 
-        <h2 className="font-poppins text-lg md:text-2xl font-bold text-gray-700 mt-6 mb-3"> Tecnologías principales: </h2>
+        <h2 className="font-poppins text-lg md:text-2xl font-bold text-gray-700 mt-6 mb-3"> Stack tecnológico: </h2>
         <div className="flex flex-wrap justify-center gap-3 sm:gap-4 md:justify-start mt-4 text-4xl">
           <FaJava className="text-[#f44236]" title="Java"/>
           <SiSpringboot className="text-[#6DB33F]" title="Spring Boot" />
@@ -50,7 +50,7 @@ export default function Hero() {
         </a>
       </div>
 
-      <div className="flex justify-center md:justify-end mb-10 md:mb-0 md:ml-12">
+      <div className="flex justify-center md:justify-end mb-4 md:mb-0 md:ml-12">
         <img
           src={fotoManuela}
           alt="Foto de Manuela Mendoza"
