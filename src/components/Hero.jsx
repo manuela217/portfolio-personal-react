@@ -1,6 +1,6 @@
 import { FaJava } from 'react-icons/fa';
 import { SiSpringboot, SiDocker, SiPostman, SiGit, SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiPhp, SiMysql, SiAngular, SiSymfony, SiPostgresql } from "react-icons/si";
-import fotoManuela from '../assets/img/fotoManuela.jpg';
+import fotoManuela from '../assets/img/fotoManuela.png';
 
 export default function Hero() {
   return (
