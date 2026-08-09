@@ -1,13 +1,18 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import HandmadeShop from "./pages/HandmadeShop";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/projects/handmade-shop" element={<HandmadeShop />} />
-    </Routes>
+    <>
+      <ScrollToTop />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects/handmade-shop" element={<HandmadeShop />} />
+      </Routes>
+    </>
   );
 }
 
