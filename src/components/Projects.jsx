@@ -19,7 +19,7 @@ export default function Proyects () {
           className="bg-white rounded-2xl shadow-lg overflow-hidden cursor-pointer hover:shadow-2xl transition-shadow duration-300"
           whileHover={{ scale: 1.02 }}
         > 
-          <Link to="/projects/handmade-shop" className="block group">
+          <Link to="/projects/handmade-shop">
             <img src={fotoECommerce} alt="Proyecto personal full stack" className="w-full h-[300px] object-cover" /> 
             <div className="p-6 text-left"> 
               <h3 className="font-poppins text-2xl font-semibold text-[#FF7F50]"> Handmade Shop Full Stack (Angular + Spring Boot) </h3> 
@@ -59,7 +59,7 @@ export default function Proyects () {
           className="bg-white rounded-2xl shadow-lg overflow-hidden cursor-pointer hover:shadow-2xl transition-shadow duration-300"
           whileHover={{ scale: 1.02 }}
         > 
-          <Link to="/projects/portfolio-react" className="block group">
+          <Link to="/projects/portfolio-react">
             <img src={fotoPortfolioReact} alt="Portfolio personal React" className="w-full h-[300px] object-cover" /> 
             <div className="p-6 text-left"> 
               <h3 className="font-poppins text-2xl font-semibold text-[#FF7F50]"> Portfolio personal (React + Vite) </h3> 
@@ -95,7 +95,7 @@ export default function Proyects () {
           className="bg-white rounded-2xl shadow-lg overflow-hidden cursor-pointer hover:shadow-2xl transition-shadow duration-300"
           whileHover={{ scale: 1.02 }}
         > 
-          <Link to="/projects/task-manager" className="block group">
+          <Link to="/projects/task-manager">
             <img src={fotoGestorTareas} alt="Proyecto personal full stack" className="w-full h-[300px] object-cover" /> 
             <div className="p-6 text-left"> 
               <h3 className="font-poppins text-2xl font-semibold text-[#FF7F50]"> Task manager (Angular + Symfony + PostgreSQL) </h3> 
@@ -132,7 +132,7 @@ export default function Proyects () {
           className="bg-white rounded-2xl shadow-lg overflow-hidden cursor-pointer hover:shadow-2xl transition-shadow duration-300"
           whileHover={{ scale: 1.02 }}
         > 
-          <Link to="/projects/sport-nutrition" className="block group">
+          <Link to="/projects/sport-nutrition">
             <img src={fotoNutrition} alt="Proyecto personal full stack" className="w-full h-[300px] object-cover" /> 
             <div className="p-6 text-left"> 
               <h3 className="font-poppins text-2xl font-semibold text-[#FF7F50]"> Sport nutrition platform (PHP + HTML + CSS + JS) </h3> 
@@ -170,7 +170,7 @@ export default function Proyects () {
           className="bg-white rounded-2xl shadow-lg overflow-hidden cursor-pointer hover:shadow-2xl transition-shadow duration-300 md:col-span-2 mx-auto max-w-xl"
           whileHover={{ scale: 1.02 }}
         > 
-          <Link to="/projects/portfolio-personal" className="block group">
+          <Link to="/projects/portfolio-personal">
             <img src={fotoPortfolio} alt="Portfolio personal" className="w-full h-[300px] object-cover" /> 
             <div className="p-6 text-left"> 
               <h3 className="font-poppins text-2xl font-semibold text-[#FF7F50]"> Portfolio personal (HTML + CSS + JS) </h3> 
