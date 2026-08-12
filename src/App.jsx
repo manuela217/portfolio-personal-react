@@ -4,6 +4,7 @@ import HandmadeShop from "./pages/HandmadeShop";
 import PortfolioReact from "./pages/PortfolioReact";
 import TaskManager from "./pages/TaskManager";
 import SportNutrition from "./pages/SportNutrition";
+import PortfolioPersonal from "./pages/PortfolioPersonal";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/projects/portfolio-react" element={<PortfolioReact />} />
         <Route path="/projects/task-manager" element={<TaskManager />} />
         <Route path="/projects/sport-nutrition" element={<SportNutrition />} />
+        <Route path="/projects/portfolio-personal" element={<PortfolioPersonal />} />
       </Routes>
     </>
   );
