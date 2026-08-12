@@ -177,7 +177,7 @@ export default function SportNutrition() {
                                     CSS3
                                 </li>
                                 <li className="text-gray-600 mt-2">
-                                    JavaScript CSS
+                                    JavaScript
                                 </li>
                             </ul>
                         </div>
