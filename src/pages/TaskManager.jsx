@@ -34,7 +34,7 @@ export default function TaskManager() {
 
                 <img
                 src={fotoGestorTareas}
-                alt="Portfolio React"
+                alt="Gestor de tareas"
                 className="rounded-2xl shadow-xl mt-10 w-full"
                 />
 
