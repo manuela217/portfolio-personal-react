@@ -67,14 +67,15 @@ export default function Proyects () {
                 Portfolio personal desarrollado con React y Tailwind CSS para mostrar mis proyectos, habilidades y formas de contacto. Este 
                 es mi segundo portfolio, creado con React y Vite para lograr un mejor rendimiento y una estructura moderna.
                 <br /><br />
-                El proyecto incorpora una estructura basada en componentes reutilizables, animaciones con Framer Motion, navegación fluida 
-                y un diseño responsive completamente adaptado a dispositivos móviles, incluyendo un menú hamburguesa optimizado 
+                El proyecto incorpora una estructura basada en componentes reutilizables, navegación mediante React Router, animaciones con 
+                Framer Motion y un diseño responsive completamente adaptado a dispositivos móviles, incluyendo un menú hamburguesa optimizado 
                 para móvil.
               </p> 
               <div className="flex flex-wrap gap-2 mt-4"> 
                 <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> React </span> 
                 <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Vite </span> 
                 <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Tailwind CSS </span> 
+                <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> React Router </span>
                 <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Framer Motion </span>
                 <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Font Awesome </span>
                 <span className="bg-[#adebb3] text-gray-800 text-sm px-3 py-1 rounded-full"> Adobe Illustrator (branding) </span> 
