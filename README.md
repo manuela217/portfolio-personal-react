@@ -1,26 +1,30 @@
 # Portfolio Personal - Manuela Mendoza Barba
 
 Bienvenido/a a mi portfolio personal, un proyecto desarrollado con **React**, **Vite** y **Tailwind CSS** donde muestro mis habilidades, experiencia y proyectos como desarrolladora web.  
-Este sitio está diseñado para ser rápido, moderno, responsive y fácil de navegar.
+Este sitio está diseñado para ser rápido, moderno, responsive y fácil de navegar, utilizando una estructura basada en componentes reutilizables y navegación mediante React Router.
 
 ## Tecnologías utilizadas
-- **React**  
-- **Vite**  
-- **Tailwind CSS**  
-- **Framer Motion** (animaciones)  
-- **React Icons** (incluyendo Font Awesome)  
+
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **React Router** (navegación y páginas de detalle)
+- **Framer Motion** (animaciones)
+- **React Icons** (incluyendo Font Awesome)
 - **Illustrator** (branding)
 
 ## Características principales
 
 - Diseño limpio, profesional y responsive.
+- Navegación entre páginas mediante React Router.
+- Páginas de detalle independientes para cada proyecto.
 - Navegación fluida con menú hamburguesa en móviles.
 - Animaciones suaves en secciones y tarjetas.
 - Componentes reutilizables y estructura escalable.
 - Secciones:
   - **Hero** — Presentación y habilidades principales.
   - **Sobre mí** — Línea del tiempo con mi formación, experiencia y trayectoria.
-  - **Proyectos** — Tarjetas con animación suave, con descripción, tecnologías usadas y enlaces a código y demo.
+  - **Proyectos** — Tarjetas con animación suave, descripción y tecnologías utilizadas, con navegación a una página de detalle independiente para cada proyecto.
   - **Contacto** — Tarjetas con email, redes sociales y ubicación.
 - Uso de **Framer Motion** para animaciones suaves.
 - Iconografía visual clara con **React Icons**.
@@ -55,13 +59,9 @@ http://localhost:5173
 
 ## Próximas mejoras
 
-Páginas internas para cada proyecto (Project Detail)
-
-Modo oscuro (Dark Mode)
-
-Mejoras de SEO y metadatos
-
-Incluir tests básicos con Vitest + React Testing Library
+- Modo oscuro (Dark Mode)
+- Mejoras de SEO y metadatos
+- Incluir tests básicos con Vitest + React Testing Library
 
 ## Autora
 
