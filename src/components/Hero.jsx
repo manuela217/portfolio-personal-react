@@ -1,4 +1,4 @@
-import { FaJava } from 'react-icons/fa';
+import { FaJava, FaDownload } from 'react-icons/fa';
 import { SiSpringboot, SiDocker, SiPostman, SiGit, SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiPhp, SiMysql, SiAngular, SiSymfony, SiPostgresql } from "react-icons/si";
 import fotoManuela from '../assets/img/fotoManuela.png';
 
@@ -42,12 +42,24 @@ export default function Hero() {
           <SiPostman  className="text-[#FF6C37]" title="Postman" />
         </div>
 
-        <a
-          href="#proyects"
-          className="bg-[#adebb3] text-[#414040] px-8 py-3 mt-8 mb-6 rounded-full font-medium transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-[#9ed6a4]"
-        >
-          Ver proyectos
-        </a>
+        <div className="flex flex-wrap justify-center gap-4 mt-8 w-full">
+          <a
+            href="#proyects"
+            className="border-3 border-[#b1d6ad] text-[#b1d6ad] px-8 py-3 rounded-full font-bold transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-[#b1d6ad] hover:text-[#414040]"
+          >
+            Ver proyectos
+          </a>
+
+          <a
+            href="/CV_Manuela_Mendoza_Barba_FullStack.pdf"
+            download
+            className="border-3 border-[#b1d6ad] text-[#b1d6ad] px-8 py-3 rounded-full font-bold transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-[#b1d6ad] hover:text-[#414040] flex items-center gap-2"
+          >
+            <FaDownload />
+            Descargar CV
+          </a>
+        </div>
+
       </div>
 
       <div className="flex justify-center md:justify-end mb-4 md:mb-0 md:ml-12">
